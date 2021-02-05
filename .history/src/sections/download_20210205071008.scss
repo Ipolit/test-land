@@ -1,0 +1,21 @@
+.section-download {
+    padding: 90px 0;
+
+    .donwload-heading {
+        max-width: 540px;
+        margin: 0 auto;
+    }
+
+    .download-buttons {
+        display: flex;
+        justify-content: center;
+
+        &-item {
+            border-radius: 10px;
+            margin: 0 17px;
+            padding: 25px;
+            text-align: center;
+            box-shadow: 0 2px 4px 0 rgba(0,0,0,.3);
+        }
+    }
+}

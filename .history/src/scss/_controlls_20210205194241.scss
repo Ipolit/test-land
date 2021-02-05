@@ -1,0 +1,133 @@
+/* Hover Style */
+a {
+  transition: color .3s;
+  will-change: color;
+
+  &:hover {
+    @media (hover: hover) and (pointer: fine) {
+      color: $soft-red;
+    }
+  }
+}
+
+/*  BUTTONS  */
+.btn {
+  max-width: 100%;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: all .2s;
+  font-size: 14px;
+  padding: 10px 25px;
+  margin-bottom: 0;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  background-image: none;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.3);
+
+  @media (max-width: 767px) {
+    width: 100%;
+    padding: 10px 10px;
+  }
+
+  &:hover {
+    @media (hover: hover) and (pointer: fine) {
+      background-color: transparent;
+      text-decoration: none;
+    }
+  }
+
+  &:disabled {
+    cursor: default;
+  }
+
+
+  &-red {
+    border-color: $soft-red;
+    background-color: $soft-red;
+    color: white;
+
+    &:hover {
+      @media (hover: hover) and (pointer: fine) {
+        background-color: white;
+        color: $soft-red;
+      }
+    }
+  }
+
+  &-blue {
+    border-color: $soft-blue;
+    background-color: $soft-blue;
+    color: white;
+
+    &:hover {
+      @media (hover: hover) and (pointer: fine) {
+        border-color: $soft-blue;
+        background-color: white;
+        color: $soft-blue;
+      }
+    }
+  }
+
+  &-gray {
+    border-color: $light-gray;
+    background-color: $light-gray;
+    color: $dark-blue;
+
+    &:hover {
+      @media (hover: hover) and (pointer: fine) {
+        border-color: $dark-blue;
+        background-color: transparent;
+        color: $dark-blue;
+      }
+    }
+  }
+}
+
+/* Input Styles */
+input {
+  border-radius: 5px;
+  max-width: 100%;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 12px 21px;
+  margin-bottom: 0;
+  vertical-align: middle;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* Social links */
+.socials {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+
+  li {
+    margin-right: 40px;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+
+  .socials-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: .3s all;
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,30 @@
+.section-features {
+    padding-top: 60px;
+
+    .features-heading {
+        max-width: 540px;
+        margin: 0 auto;
+    }
+
+    #tabs-nav {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+
+        li {
+            border-bottom: 1px solid $grayish-blue;
+        }
+
+        li.active {
+            a {
+                color: $dark-blue;
+            }
+        }
+
+        a {
+            color: $grayish-blue;
+        }
+    }
+}

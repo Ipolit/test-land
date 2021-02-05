@@ -1,0 +1,40 @@
+.footer {
+    background-color: $dark-blue;
+    color: white;
+    padding: 30px 0;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .left-part {
+        display: flex;
+        align-items: center;
+    }
+
+    &-navigation {
+        padding-left: 20px;
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+
+            li {
+                padding: 0 24px;
+                font-size: 14px;
+
+                &:last-child {
+                    padding-right: 0;
+                }
+
+                a {
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}

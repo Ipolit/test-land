@@ -1,0 +1,15 @@
+.footer {
+    background-color: $dark-blue;
+    color: white;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .left-part {
+        display: flex;
+        align-items: center;
+    }
+}

@@ -1,0 +1,35 @@
+.section-features {
+    padding-top: 60px;
+
+    .features-heading {
+        max-width: 540px;
+        margin: 0 auto;
+    }
+
+    #tabs-nav {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+
+        li {
+            border-bottom: 1px solid $grayish-blue;
+
+            a {
+                display: block;
+                color: $grayish-blue;
+                padding: 30px 40px;
+                border-bottom: 4px solid transparent;
+                transition: all .3s;
+            }
+
+            &.active {
+                a {
+                    color: $dark-blue;
+                    border-bottom-color: $soft-red;
+                }
+            }
+        }
+    }
+}

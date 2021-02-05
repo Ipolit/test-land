@@ -1,0 +1,124 @@
+@import "scss/vendor"; /*styles inherited from page template*/
+
+//common styles
+@import "scss/variables";
+@import "scss/reset";
+
+@import "scss/base";
+@import "scss/controlls";
+@import "scss/typography";
+@import "scss/theme";
+
+//sections
+nav {
+  @import "sections/header";
+}
+
+#global-sidemenu.sidemenu {
+  @import "sections/sidemenu";
+}
+
+section.h-opening {
+  @import "sections/h-opening";
+}
+
+section.featured-agent-section {
+  @import "sections/featured-agent";
+}
+
+section.featured-properties-section {
+  @import "sections/featured-properties";
+}
+
+
+section.team-grid {
+  @import "sections/team-grid";
+}
+
+section.blog-grid {
+  @import "sections/blog-grid";
+}
+
+section.press-grid {
+  @import "sections/press-grid";
+}
+
+section.testimonials-grid {
+  @import "sections/testimonials-grid";
+}
+
+section.developments-grid {
+  @import "sections/developments-grid";
+}
+
+section.development-content {
+  @import "sections/development-content";
+}
+
+section.development-images {
+  @import "sections/development-images";
+}
+
+section.development-properties {
+  @import "sections/development-properties";
+}
+
+section.blog-opening {
+  @import "sections/blog-opening";
+}
+
+section.blog-content {
+  @import "sections/blog-content";
+}
+
+section.blog-images {
+  @import "sections/blog-images";
+}
+
+section.agent-bio-content {
+  @import "sections/agent-bio-content";
+}
+
+section.agent-info {
+  @import "sections/agent-info";
+}
+
+section.agent-properties {
+  @import "sections/agent-properties";
+}
+
+section.featured-neighborhoods-section {
+  @import "sections/featured-neighborhoods";
+
+}
+
+#modal-global-contact-us {
+  @import "sections/contact-us";
+}
+
+footer {
+  @import "sections/footer";
+}
+
+#global-mobile-contact {
+  @import "sections/mobile-contact-buttons";
+}
+
+@import "sections/property-contact";
+@import "sections/property-details";
+@import "sections/property-file-download";
+@import "sections/property-amenities";
+@import "sections/featured-testimonials";
+@import "sections/work-with-us";
+@import "sections/featured-blogs";
+@import "sections/featured-press";
+@import "sections/featured-team";
+@import "sections/featured-video";
+
+
+section.page-title {
+  @import "sections/page-title";
+}
+
+@import "sections/properties-grid";
+

@@ -1,0 +1,32 @@
+.section-about {
+    padding: 60px 0;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .about {
+        &-text {
+            width: 40%;
+        }
+
+        &-image {
+            width: 60%;
+            text-align: right;
+            position: relative;
+
+            &:after {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                height: 350px;
+                width: 1000px;
+                border-bottom-left-radius: 50%;
+                border-top-left-radius: 50%;
+                background-color: $dark-blue;
+            }
+        }
+    }
+}
